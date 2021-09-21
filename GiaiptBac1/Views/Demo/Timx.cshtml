@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Timx";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>phuong trinh bac 1 dang ax+b=0</h2>
+@using (Html.BeginForm()) 
+{
+    <label>So A: </label>
+    <input type="text" name="soA" />
+    <label>So B: </label>
+    <input type="text" name="soB" />
+    <input type="submit" value="tim gia tri x" />
+}
+<label>Gia tri cua x la : @ViewBag.timgtx</label>
+
+
+
+
+
