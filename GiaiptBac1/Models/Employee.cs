@@ -12,6 +12,5 @@ namespace GiaiptBac1.Models
         public string EmployeeId { get; set; }
         public string EmployeeName { get; set; }
         public DateTime EmployeeBirth { get; set; }
-
     }
 }
